@@ -1,0 +1,36 @@
+.hero {
+    position: relative; /* Set position to relative to position the overlay */
+    text-align: center;
+    padding: 2em 0;
+    color: white;
+    background-image: url('../../../src/assets/homebg.jpg'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero::before {
+    content: ""; /* Necessary for pseudo-element */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(232, 230, 230, 0.3); /* Semi-transparent black overlay (adjust alpha value as needed) */
+    z-index: 1; /* Ensure overlay is above the background image but below the content */
+  }
+  
+  .hero h2,
+  .hero p {
+    position: relative; /* Ensure text is above the overlay */
+    z-index: 2;
+  }
+  
+  .hero h2 {
+    color: black;
+  }
+  

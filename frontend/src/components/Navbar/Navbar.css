@@ -1,0 +1,23 @@
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #249e9e; /* Light background color */
+    margin: 0; /* Remove default margin */
+  }
+  
+  nav ul li {
+    margin: 0 2em; /* Increased spacing between list items */
+  }
+  
+  nav ul li a {
+    color: rgb(247, 247, 250);
+    text-decoration: none;
+    font-size: 1.2em; /* Increase font size */
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  

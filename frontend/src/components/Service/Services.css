@@ -1,0 +1,12 @@
+.services {
+    padding: 2em;
+    text-align: center;
+}
+
+.service {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+}

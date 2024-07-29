@@ -1,0 +1,19 @@
+.doctors {
+    padding: 2em;
+    text-align: center;
+    background-color: #f9fcfb;
+    background-image: url('../../../src/assets/doc.jpg');
+
+}
+
+.doctor {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-image:url('../../../src/assets/sky2.png') ;
+}
+
+.doctor img {
+    border-radius: 30px;
+}
